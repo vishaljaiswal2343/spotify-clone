@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="icon" href="./image/logo.png">
+     <title>Spotify - web player: Music for e everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+              <div class="nav_option"  style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+              </div>
+              <div class="nav_option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+              </div>
+            </div>
+            <div class="librery">
+                <div class="options">
+                    <div class="lib_options nav_option">
+                        <img src="./image/library_icon.png" alt="">
+                        <a href="#">your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                   
+                </div>
+                <div class="lib_boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, We'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo">
+            <a href="#"><img src="./image/logo.png" class="logo-img" alt=""> Spotify</a>
+          </div>
+        <input type="checkbox" id="check" />
+        <div id="btn_one" class="btn_one">
+             <label for="check" >
+                <i class="fa-solid fa-gear"></i>
+            </label>
+        </div>
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a href="#"><img src="./image/logo.png" class="logo-img" alt=""> Spotify</a>
+            </div>
+            <div id="btn_one" class="btn_one">
+                <label for="check" >
+                    <i class="fa-solid fa-gear"></i>
+               </label>
+           </div>
+           
+    
+            <div class="menu">
+              <ul>
+                <li>
+                  
+                  <a class="res-nav-head-opt" href="#">View Account</a>
+                </li>
+                <li>
+                  
+                  <a class="res-nav-head-opt" href="#">Profile</a>
+                </li>
+                <li>
+                  
+                  <a class="res-nav-head-opt"  href="#">Log Out</a>
+                </li>
+                <li>
+                  
+                  <a class="res-nav-head-opt" href="#">__</a>
+                </li>
+                <li>
+                  
+                  <a href="#">Premium</a>
+                </li>
+                <li>
+                  
+                  <a href="#">Support</a>
+                </li>
+                <li>
+                  
+                  <a href="#">Download</a>
+                </li>
+                <li>
+                    
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                   
+                    <a href="#">Terms</a>
+                  </li>
+              </ul>
+            </div>
+    
+            <div class="social_media">
+              <ul>
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </ul>
+            </div>
+          </div>
+        
+        <div class="mainpage">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./image/backward_icon.png" alt="">
+                    <img src="./image/forward_icon.png" class="hide" alt="">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge  nav-item" style="background-color: black; color: white;"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Intall App</button>
+                    <i class="fa-regular fa-bell  nav-item  nav-item-icon"></i>
+                    <i class="fa-regular fa-user  nav-item nav-item-icon"></i>
+                </div>
+            </div>
+            <div class="all-music-podcast">
+                <p class="music-podcast" style="background-color: white; color: black;">All</p>
+                <p class="music-podcast">Music</p>
+                <p class="music-podcast">Podcasts</p>
+            </div>
+           
+            <div class="recently-played">
+                <h2>recently-played</h2>
+                <p>Show all</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/hot_hits.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Hot Hit's Hindi</p>
+                    <p class="card-info">Hottest Hindi music served here.Cover...</p>
+                </div>
+                
+                <div class="card">
+                    <img src="./image/hot_hits_p.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Hot Hit's Panjabi</p>
+                    <p class="card-info">Hottest Panjabi music served here...</p>
+                </div>
+                
+            </div>
+            <div class="recently-played">
+                <h2>Throwback</h2>
+                <p>Show all</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/hot_hits.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Hot Hit's Hindi</p>
+                    <p class="card-info">Hottest Hindi music served here.Cover...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/all_out.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">All Out 00's Hindi</p>
+                    <p class="card-info">Fall in love with 00's Bollywood like nev..</p>
+                </div>
+                <div class="card">
+                    <img src="./image/hot_hits_p.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Hot Hit's Panjabi</p>
+                    <p class="card-info">Hottest Panjabi music served here...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/s_00's_hits.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">00's love Hits</p>
+                    <p class="card-info">Fall in love with 00's Bollywood like nev...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/pop_shots.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">The most played Pop shots...</p>
+                </div>
+            </div>
+            <h2>Spotify original podcasts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/aa_modati.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Tere Bin(From..)</p>
+                    <p class="card-info">Rahat Fateh Ali Khan, Asees kaur,...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/the_horror.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">The Best horror</p>
+                    <p class="card-info">The most horror song played...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/best_love_s.png" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Our love story</p>
+                    <p class="card-info">The best Love story ...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/card3img.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Mere pass Tum..</p>
+                    <p class="card-info">Mere pass tum ho Song...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/gopi_sudhakar.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Gopi shudhakar</p>
+                    <p class="card-info">Your daily updates to the most played...</p>
+                </div>
+            </div>
+            <div class="recently-played">
+                <h2>Try something else</h2>
+                <p>Show all</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/arjitsingh.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Arjit Singh</p>
+                    <p class="card-info">Bollywood crooner's essential song...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/bollywood.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Bollywood &chill</p>
+                    <p class="card-info">Sit back, and chill with Bollywood's es..</p>
+                </div>
+                <div class="card">
+                    <img src="./image/winter-of-love.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Winter of love</p>
+                    <p class="card-info">Get cosy and snuggle with these Hindi...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/this_is_arjit.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">This is Arjit Singh</p>
+                    <p class="card-info">Bollywood crooner's essential song...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/pop_shots.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">The most played Pop shots...</p>
+                </div>
+            </div>
+
+            <div class="recently-played">
+                <h2>More like Arjit Singh</h2>
+                <p>Show all</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/starring-deepika.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Starring Deepika pa..</p>
+                    <p class="card-info">Essential tracks of Deepika padukone all in...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/starring-alia.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Starring Alia Bhatt</p>
+                    <p class="card-info">Essential tracks of Alia Bhatt all in...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/starring-katrina.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Starring Katrina Kaif</p>
+                    <p class="card-info">Essential tracks os Deepika padukone all in...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/sathiya.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Saathiyah</p>
+                    <p class="card-info">A.R Rahman</p>
+                </div>
+                <div class="card">
+                    <img src="./image/pop_shots.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">The most played Pop shots...</p>
+                </div>
+            </div>
+
+            <div class="recently-played">
+                <h2>Mood</h2>
+                <p>Show all</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/chill-karlo.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Chill Karlo</p>
+                    <p class="card-info">Sit Back, Unwind te Thand Rakho! C...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/happy-favorits.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Happy Favorites</p>
+                    <p class="card-info">Put a smile on your face with these hap...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/deep-focus.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Deep Focus</p>
+                    <p class="card-info">Keep calm and focus with ambient and post-r...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/long-distance.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Long Distance</p>
+                    <p class="card-info">Long distance is hard, but true love know...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/pop_shots.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Pop Shots</p>
+                    <p class="card-info">The most played Pop shots...</p>
+                </div>
+            </div>
+            <h2>Featured charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./image/card5img.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Top songs - Global</p>
+                    <p class="card-info">Your daily updates to the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/card6img.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Top songs - India</p>
+                    <p class="card-info">Your daily updates to the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/card1img.jpeg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates to the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="./image/viral_50.jpg" class="card-img" alt="" loading="lazy">
+                    <p class="card-title">viral 50 - Global</p>
+                    <p class="card-info">Your daily updates to the most played...</p>
+                </div>
+                
+            </div>
+            <div class="footer">
+    
+                    <div class="footer-content">
+                        <div class="company-footer">
+                            <p class="company">Company</p>
+                            <p class="company-para">About</p>
+                            <p class="company-para">Jobs</p>
+                            <p class="company-para">For the Record</p>
+                        </div>
+                        <div class="communities-footer">
+                            <p class="company">Communities</p>
+                            <p class="company-para">For Artists</p>
+                            <p class="company-para">Developers</p>
+                            <p class="company-para">Advertising</p>
+                            <p class="company-para">Investors</p>
+                            <p class="company-para">Vendors</p>
+                           
+                        </div>
+                        <div class="useful-footer">
+                            <p class="company">Useful links</p>
+                            <p class="company-para">Support</p>
+                            <p class="company-para">Free Mobile App</p>
+                        </div>
+                    </div>
+                    <div class="social-link">
+                        <div class="icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+
+                    
+            </div>
+            <div class="line"></div>
+        </div>
+        
+        <div class="responsive-song-bar">
+            <div class="responsive-song-image-play">
+                <img src="./image/satranga.jpeg" alt="">
+            </div>
+            <div class="satranga">
+                <p class="satranga-h">
+                    Satranga(From"ANIMAL")
+                </p>
+                <p class="satranga-p">
+                    Arjit Singh, Shreyas Puranik, Siddha
+                </p>
+            </div>
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <i class="fa-solid fa-play"></i>
+        </div>
+        
+        <div class="music_player">
+            <div class="album">
+                <div class="album-image">
+                    <img src="./image/hot_hits.jpeg" alt="">
+                </div>
+                <div class="caption-alb">
+                    <p class="album-heading">Satrana(Fron "ANIMAL")</p>
+                    <p class="albun-para">Arjit Singh, Shreyas Puranik, Siddarth - Garima</p>
+                </div>
+                <i class="fa-regular fa-heart heart-icon"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./image/player_icon1.png" class="player-control-icon" alt="">
+                    <img src="./image/player_icon2.png" class="player-control-icon" alt="">
+                    <img src="./image/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem; width: 2rem;" alt="">
+                    <img src="./image/player_icon4.png" class="player-control-icon" alt="">
+                    <img src="./image/player_icon5.png" class="player-control-icon" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <img src="./image/controls_icon1.png" class="player-control-icon2" alt="">
+                <img src="./image/controld_icon2.png" class="player-control-icon2" alt="">
+                <img src="./image/controls_icon3.png" class="player-control-icon2" alt="">
+                <img src="./image/controls_icon4.png" class="player-control-icon2" alt="">
+                <img src="./image/controls_icon5.png" class="player-control-icon2" alt="">
+                <input class="controls-input" min="0" max="100"  type="range">
+                <i class="fa-solid fa-up-right-and-down-left-from-center full-screen"></i>
+            </div>
+
+            <div class="responsive-bottom-nav">
+                <div class="home">
+                    <i class="fa-solid fa-house" style="opacity: 1;"></i>
+                    <p style="opacity: 1;">Home</p>
+                </div>
+                <div class="home">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Search</p>
+                </div>
+                <div class="home">
+                    <img width="30rem" src="./image/library_icon.png" alt="">
+                    <p>Your Library</p>
+                </div>
+                <div class="home">
+                    <i class="fa-brands fa-spotify"></i>
+                    <p>Get App</p>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
