@@ -1,0 +1,762 @@
+body{
+    margin: 0;
+    
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.sidebar{
+    background-color:black;
+    width: 340px;
+     border-radius: 1rem;/* 16px */
+     margin-right: 0.5rem;
+}
+.nav{
+    background-color:  #121212;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+.nav_option{
+    line-height: 2.5rem;
+    /* background-color:  #121212; */
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav_option i{
+    font-size: 1.25rem;
+}
+.nav_option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+   
+}
+.nav_option:hover{
+   opacity: 1;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.librery{
+    background-color: #121212;
+    border-radius: 0.7rem;
+    height: 100%;
+   margin-top: 0.3rem;
+   padding: 0.5rem 0.75rem;
+}
+.options{
+    background-color: #121212;
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.librery .lib_options{
+    display: flex;
+    align-items: center;
+
+}
+.librery .lib_options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.25rem 0;
+    padding: 0.75rem 1rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.75rem;
+    opacity: 0.9rem;
+}
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.mainpage{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;/* 16px */
+    overflow: auto;
+    padding: 0 1.4rem 0 1.4rem;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-item{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.nav-item-icon{
+    opacity: 0.8;
+}
+.nav-item-icon:hover{
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+.all-music-podcast{
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    position: sticky;
+    top: 3.5rem;
+    margin-top: -1rem;
+}
+.music-podcast{
+    padding: 0.5rem 0.75rem;
+    background-color: #232323;
+    color: rgba(255, 255, 255, 0.837);
+    font-weight: 600;
+    
+    border-radius: 100px;
+}
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+    
+}
+.recently-played{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recently-played p{
+    font-weight: 700;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    cursor: pointer;
+   
+}
+.recently-played p:hover{
+    text-decoration: underline;
+}
+.card{
+    background-color: #141414;
+    width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0.8rem 0.6rem 0.8rem;
+    margin-left: 0.8rem;
+    margin-top: 0.7rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.5;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 4rem;
+    
+}
+.footer-content{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.company{
+    font-weight: 700;
+}
+.company-para{
+    opacity: 0.6;
+    letter-spacing: 1;
+    font-size: 0.85rem;
+}
+.social-link{
+    display: flex;
+    width: 9rem;
+    height: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-link .icon{
+    background-color: #232323;
+    padding: 0.8rem;
+    margin-left: 0.2rem;
+    border-radius: 50%;
+}
+.social-link .icon i{
+    font: 2rem;
+}
+.line{
+    width: 95%;
+    height: 1px;
+    background-color: white;
+    opacity: 0.3;
+    margin-top: -10rem;
+    margin-left: 1rem;
+}
+.music_player{
+    background-color:black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+   
+}
+.music_player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+.album-image{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.7rem;
+}
+.album-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.caption-alb{
+    margin-top: 0.8rem;
+    
+    line-height: 0.3;
+}
+.caption-alb .album-heading{
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.caption-alb .albun-para{
+    font-size: 0.62rem;
+    
+}
+.heart-icon{
+   margin: auto;
+   opacity: 0.8;
+}
+.player{
+    width: 50%;
+   
+}
+
+.player-controls{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.player-control-icon{
+    width: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+    opacity: 1;
+}
+.playback-bar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.progress-bar{
+    width: 50%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+.progress-bar::-webkit-slider-thumb{
+     appearance: none;
+     height: 1rem;
+     width: 1rem;
+     margin-top: -6px;
+     background-color: #1bd760;
+     border-radius: 50%;
+}
+.controls{
+    width: 25%;
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.player-control-icon2{
+    width: 1.5rem;
+   margin-right: 0.7rem;
+    opacity: 0.7;
+    background-color: #121212;
+}
+.player-control-icon2:hover{
+    opacity: 1;
+}
+.controls-input{
+    width: 6rem;
+    margin-left: -0.9rem;
+}
+.controls-input::-webkit-slider-runnable-track{
+    background-color: #ffffff;
+    border-radius: 100px;
+    height: 0.19rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+.controls-input::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    margin-top: -6px;
+    background-color: #1bd760;
+    border-radius: 50%;
+    opacity: 0;
+   
+}
+.full-screen{
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-left: 0.3rem;
+}
+
+
+
+.sidebar_menu{
+    display: none;
+}
+.logo{
+    display: none;
+}
+.btn_one{
+    display: none;
+}
+#check{
+    display: none;
+}
+.responsive-bottom-nav{
+    display: none;
+}
+.responsive-song-bar{
+    display: none;
+}
+@media (max-width:467px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #121212;
+    }
+    .btn_one{
+        display: block;
+    }
+    #check{
+       display: block;
+    }
+   
+  
+    .btn_one i{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 30px;
+        font-weight: 700;
+        position: absolute;
+        right: 1rem;
+        line-height: 60px;
+        cursor: pointer;
+        display: block;
+        
+    }
+    .logo{
+        width: 100%;
+        height: 5rem;
+        background-color: #121212;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.8rem;
+        font-weight: 700;
+        position: absolute;
+        left: 0;
+        top: 0;
+        line-height: 60px;
+        cursor: pointer;
+        display: block;
+        align-items: center;
+    }
+    .logo a{
+        position: relative;
+        left: 1rem;
+        
+    }
+    .logo-img{
+        width: 1.8rem;
+        margin-top: 1.5rem;
+    }
+    .btn_one i:hover{
+      font-size: 31px;
+      color: white;
+      transition: all 0.2s linear;
+    }
+    .sidebar_menu{
+        position: fixed;
+        left: -600px;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+        box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+       transition: all 0.3s linear;
+       display: none;
+       overflow: hidden;
+    }
+    .sidebar_menu .logo{
+        position: absolute;
+        left: -1.8rem;
+        width: 100%;
+        line-height: 60px;
+        background-color: black;
+    }
+    .sidebar_menu .logo a{
+        position: absolute;
+        left: 50px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .sidebar_menu .menu{
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        left: -2rem;
+        line-height: 0.7;
+    }
+  
+    .sidebar_menu .btn_two i{
+        color: gray;
+        font-size: 25px;
+        line-height: 60px;
+        position: absolute;
+        left: 220px;
+        opacity: 1;
+        cursor: pointer;
+        
+    }
+   
+   
+    .sidebar_menu .btn_two i:hover{
+      font-size: 28px;
+      transition: all 0.2s linear;
+    }
+    .sidebar_menu .menu li{
+        margin-top: 6px;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+   
+    .sidebar_menu .menu a , i{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .sidebar_menu .menu .res-nav-head-opt{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .sidebar_menu .menu i{
+        padding-right: 8px;
+    }
+    .sidebar_menu .social_media{
+        color: white;
+        opacity: 0.5;
+        position: absolute;
+        left: 23%;
+        bottom: 20px;
+    }
+    .sidebar_menu .social_media i{
+        color: white;
+        opacity: 0.5;
+        padding: 0 5px;
+    }
+    #check{
+        display: none;
+    }
+    .sidebar_menu .menu li:hover{
+        box-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    }
+    .sidebar_menu .social_media  i:hover{
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    #check:checked ~.sidebar_menu{
+      left: 0;
+      display: block;
+    }
+    #check:checked ~.sidebar_menu{
+      left: 0;
+
+    }
+    #check:checked ~.responsive-song-bar{
+      display: none;
+
+    }
+    
+    
+   .sidebar{
+    display: none;
+   }
+   .sticky-nav{
+    display: none;
+   }
+   .all-music-podcast{
+    display: none;
+   }
+    .recently-played p{
+        display: none;
+    }
+
+    .mainpage{
+        background-color: #121212;
+        flex: 1;
+        border-radius: 1rem;/* 16px */
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 0;
+    }
+    .card{
+      background-color: #141414;
+      width: 170px;
+      border-radius: 0.5rem;
+      padding: 0.2rem 0.2rem 0.15rem 0.2rem;
+      margin-left: 0.5rem;
+      margin-top: 0.7rem;
+      display: inline-block;
+      flex: 0 0 auto;
+    }
+    .cards-container{
+       display: flex;
+       flex-wrap: nowrap;
+       overflow-x: auto;
+    }
+    .cards-container::-webkit-scrollbar{
+        display: none;
+    }
+    .card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+    }
+    .card-img{
+       width: 100%;
+       border-radius: 0.5rem;
+    }
+    .card-title{
+       font-weight: 600;
+       margin-top: -0.01rem;
+    }
+    .card-info{
+      font-size: 0.85rem;
+      opacity: 1;
+      color: rgb(142, 141, 141);
+      display: none;
+    }
+    
+.footer{
+    height: 720px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 2rem;
+    
+}
+.footer-content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 2rem;
+    
+    line-height: 1;
+
+}
+.company{
+    font-weight: 800;
+    font-size: 1.2rem;
+    opacity: 1;
+}
+.company-para{
+    opacity: 0.6;
+    letter-spacing: 1;
+    font-size: 1rem;
+    line-height: 1;
+}
+.social-link{
+    display: flex;
+    width: 15rem;
+    height: 3rem;
+   
+    margin-bottom: 11rem;
+}
+.social-link .icon{
+    background-color: #232323;
+    padding: 0.8rem;
+    margin-left: 0.2rem;
+    border-radius: 50%;
+}
+.social-link .icon i{
+    font: 2rem;
+}
+.line{
+    width: 95%;
+    height: 1px;
+    background-color: white;
+    opacity: 0.3;
+    margin-top: -10.3rem;
+    margin-left: 1rem;
+}
+.music_player{
+    background-color:black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+}
+.music_player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -5px;
+}
+.controls{
+    display: none;
+}
+.player{
+    display: none;
+}
+.album{
+    display: none;
+}
+.responsive-bottom-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.responsive-bottom-nav i{
+    font-size: 1.8rem;
+    opacity: 0.9;
+}
+.home{
+    line-height: 0;
+    text-align: center;
+}
+.home p{
+    font-size: 0.85rem;
+    opacity: 0.8;
+
+}
+.responsive-song-bar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 4.9rem;
+   padding: 0.8rem;
+   height: 3.5rem;
+   background-color: rgb(255, 0, 191);
+   border-radius: 12px;
+   align-self: center;
+   width: 91%;
+   gap: 0.4rem;
+   
+}
+.responsive-song-bar .responsive-song-image-play{
+    width: 4rem;
+    height: 4rem;
+}
+.responsive-song-bar .responsive-song-image-play img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.satranga{
+    line-height: 0.4;
+
+}
+.satranga-h{
+    font-weight: 700;
+}
+.satranga-p{
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.responsive-song-bar i{
+    font-size: 1.7rem;
+}
+}
